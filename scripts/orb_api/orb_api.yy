@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"orb_api",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"orb_api",
+  "parent":{
+    "name":"Orbita",
+    "path":"folders/Orbita.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
