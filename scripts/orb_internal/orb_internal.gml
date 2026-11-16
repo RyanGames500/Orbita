@@ -143,7 +143,7 @@ function __orb_connection_lost(_reason) {
 
 	if (ORB_AUTO_RECONNECT && !__ORB.manual_off && !__ORB.fatal) {
 		__ORB.retry_at = current_time + __ORB.retry_delay;
-		__orb_log("Conexión perdida (" + string(_reason) + "). Reintentando en " + string(__ORB.retry_delay / 1000) + " s");
+		__orb_log("Conexion perdida (" + string(_reason) + "). Reintentando en " + string(__ORB.retry_delay / 1000) + " s");
 		__ORB.retry_delay = min(__ORB.retry_delay * 2, 10000);
 	} else {
 		__ORB.retry_at = -1;
