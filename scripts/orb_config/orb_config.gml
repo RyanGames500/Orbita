@@ -12,7 +12,7 @@
 
 // --- Juego ---
 #macro ORB_GAME_ID         "MiJuego"    // separa los datos de cada juego en el mismo servidor
-#macro ORB_GAME_KEY        ""           // si el servidor tiene GAME_KEY, pon la misma aquí
+#macro ORB_GAME_KEY        "b7f7c782-a5cc-41d7-9a77-257aed9a2b86"           // si el servidor tiene GAME_KEY, pon la misma aquí
 
 // --- Red ---
 #macro ORB_SEND_EVERY      2            // cada cuántos frames se manda tu estado (2 = 30 veces/seg a 60fps)
